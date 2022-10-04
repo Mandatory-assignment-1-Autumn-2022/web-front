@@ -1,0 +1,16 @@
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+#app > div {
+  display: flex;
+}
+
+#app > div > div {
+  margin-right: 12px;
+}
+
+#app > div > div > label {
+  margin-right: 4px;
+}
